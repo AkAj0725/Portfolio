@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+</head>
+
+<body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <!--NAVbar starts-->
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo">
+        <a href="">Portfo<span>lio</span></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#" class="menu-btn">Home</a></li>
+        <li><a href="#" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#" class="menu-btn">Skills</a></li>
+        <li><a href="#" class="menu-btn">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Home section starts-->
+  <section class="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, My name is</div>
+        <div class="text-2">Akshad Kalaskar</div>
+        <div class="text-3">
+          And I'm <span class="typing"></span>
+          <!--span for JS-->
+        </div>
+        <a href="">Hire me</a>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <!--About section start here-->
+  <section class="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="Akshad.jpg" alt="My Photo" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            I'm Akshad and I'm <span class="typing-2"></span>
+          </div>
+
+          <p>
+            Recent graduate (2024 batch) from NIT Raipur with major in Information Technology.<br>
+            My certifications are full-stack web development in React and NodeJs,
+            C/C++ programming and Data structures and Algorithms.<br>
+            I finished my 12th(CBSE board) from Sri Sankara vidyalaya and
+            10th (CBSE board) from DPS bhilai.
+          </p>
+          <a href="https://drive.google.com/file/d/1qVpRAyYMZwWBUfTUB4A2IJS9WfA-aJne/view?usp=sharing" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--services section starts here-->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">My services</h2>
+      <div class="serv-content">
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-paint-brush"></i>
+            <div class="text">Front-end development</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-chart-line"></i>
+            <div class="text">Full-stack development</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Problem solving</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--skill section starts-->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">My creative skills</div>
+          <p>My skills set includes programming with C and object-oriented programming with C++.<br>
+             Problem solving with Data Structures and Algoritms in C++ and Javascript.<br>
+             Front-end web development with HTML ,CSS , Javascipt and ReactJS framework.<br>
+             Backend development with Express.js with Node.js and Database SQL and Nosql MongoDB.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="column right">
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Javascript</span>
+              <span>80%</span>
+            </div>
+            <div class="line js"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>ReactJs</span>
+              <span>80%</span>
+            </div>
+            <div class="line django"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>MERN</span>
+              <span>80%</span>
+            </div>
+            <div class="line mern"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!--contact me section starts-->
+
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Get in touch</div>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Akshad Kalaskar</div>
+              </div>
+            </div>
+            <div class="row">
+              <span class="material-symbols-outlined">
+                home
+              </span>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Station Road,Durg</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">akshadkalaskar@gmail.com</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">Message Me</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name" required>
+
+              </div>
+              <div class="field Email">
+                <input type="text" placeholder="Email" required>
+
+              </div>
+              <div class="field Subject">
+                <input type="text" placeholder="Subject" required>
+
+              </div>
+              <div class="field Message">
+                <textarea cols="30" placeholder="Message..." rows="10" required></textarea>
+
+              </div>
+              <div class="button-area">
+                <button type="submit">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <span>Created By <a href="https://www.google.com">Akshad Kalaskar</a>
+      | <span class="far fa-copyright">2024 All rights reserved</span></span>
+      </span>
+  </footer>
+
+
+</body>
+<script src="scirpt.js"></script>
+
+</html>
